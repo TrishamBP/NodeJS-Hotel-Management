@@ -28,6 +28,6 @@ npm install yargs
 ```
 Run the app
 ```Bash
-node app.js <command> --title="" --body=""
-<command>=add, remove, list, read
+node app.js <command> --name="<string>" --time="<string>" --seats=<int>
+<command>= reserve, cancel list and read
 ```
